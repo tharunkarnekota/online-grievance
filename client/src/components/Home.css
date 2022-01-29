@@ -1,0 +1,40 @@
+.bg{
+    background-image: url("./bg1.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-position{
+    width: 30rem;
+    border-radius: 1rem;
+    padding: 50px;
+    margin: 20px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    background-color: white;
+}
+
+.btn1 {
+    margin-left: 6.5rem;
+}
+
+.btn2 btn-success{
+    margin-left: 6.5rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+.heading{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+.caption{
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+}
