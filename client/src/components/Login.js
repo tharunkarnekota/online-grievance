@@ -57,7 +57,7 @@ const Login = () => {
             <section className="container">
                 <h1 className="large " style={{"color":"orange","marginTop":"100px","marginBottom":"1rem"  }} >Sign In</h1>
                 <p className="lead" style={{"paddingBottom":"1rem"}}><b>Sign into Your Account</b></p>
-                <form onSubmit={submitHandler}>
+                <form onSubmit={submitHandler} autoComplete="off">
                     <input className="form-control-lg m-1 border" style={{width:"50%","float":"left" }} type="email"    placeholder="Enter email"    name="email" value={email}   onChange={changeHandler} /><br /><br />
                     <input className="form-control-lg m-1 border" style={{width:"50%", "float":"left"}} type="password" placeholder="Enter password" name="password" value={password} onChange={changeHandler} /><br /><br />
                     

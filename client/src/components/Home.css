@@ -8,10 +8,10 @@
 }
 
 .home-position{
-    width: 30rem;
+    width: 20rem;
     border-radius: 1rem;
-    padding: 50px;
-    margin: 20px;
+    padding: 5% 2%;
+    margin: 2%;
     align-self: center;
     margin-left: auto;
     margin-right: auto;
@@ -19,13 +19,11 @@
     background-color: white;
 }
 
-.btn1 {
-    margin-left: 6.5rem;
+.btn2 {
+    margin-left: 5.5%;
 }
 
-.btn2 btn-success{
-    margin-left: 6.5rem;
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');

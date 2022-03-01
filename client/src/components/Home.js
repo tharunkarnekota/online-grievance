@@ -24,14 +24,14 @@ const Home = () => {
                 </nav> */}
                 {/* <section  style={{"marginTop":"170px"}}> */}
                     <div className="home-position">
-                        <h1 className="heading">Online Grievance</h1>
+                        <h1 className="heading" style={{color:"#FB8500"}}><b>Online Grievance</b></h1>
                         <p className="caption">
-                            Create your Student Profile and sort your problems
+                            Create your Profile and sort your problems
                         </p>
                         
-                        <Link to='/register' className="btn1 btn btn-primary">Signup</Link>&nbsp;&nbsp;&nbsp;
-                        <Link to='/login' className="btn2 btn btn-success">SignIn</Link>&nbsp;&nbsp;&nbsp;
-                        <Link to='/adminlogin' className="btn2 btn btn-info">Admin</Link>
+                        <Link to='/register' className="btn2 btn btn-primary">Signup</Link>&nbsp;&nbsp;&nbsp;
+                        <Link to='/login' className="btn1 btn btn-success">SignIn</Link>&nbsp;&nbsp;&nbsp;
+                        <Link to='/adminlogin' className="btn1 btn btn-info">Admin</Link>
                     </div>
                 {/* </section> */}
             {/* </center> */}

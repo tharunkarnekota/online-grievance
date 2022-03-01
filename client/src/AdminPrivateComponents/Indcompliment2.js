@@ -109,7 +109,7 @@ const Indcompliment2 = () => {
                         <h4>Mobile :  </h4>
                         <h4>Date : </h4>
                         <h4>Concern Department : </h4>
-                        <h4>Harassed Person Info : </h4>
+                        <h4>Complainee Info : </h4>
                         <h4>My concern Info : </h4>      
                     </div>
                     <div className='flex-item-right2'>
@@ -136,7 +136,7 @@ const Indcompliment2 = () => {
                                                                     {spconcern.pic ? <div><img 
                                                                         className="round-img"
                                                                         src={spconcern.pic}
-                                                                        height="500" width="500"
+                                                                        height="50%" width="50%"
                                                                         alt="user photo"
                                                                     /><br /><br /></div>:<h5 style={{color:"red"}}>No Pic uploaded</h5>}
                                                                 </div> 
@@ -164,7 +164,7 @@ const Indcompliment2 = () => {
                                                                     {spconcern.pic ? <div><img 
                                                                         className="round-img"
                                                                         src={spconcern.pic}
-                                                                        height="500" width="500"
+                                                                        height="60%" width="90%"
                                                                         alt="user photo"
                                                                     /><br /><br /></div>:<h5 style={{color:"red"}}>No Pic uploaded</h5>}
                                                                     </div>
@@ -172,7 +172,7 @@ const Indcompliment2 = () => {
                                                                     <div>
                                                                         <h4 style={{color:"#48CAE4"}}>verifying</h4> <br /><br /> 
                                                                         <h4><b style={{color:"red"}}>Report : </b></h4>
-                                                                        <form onSubmit={submitHandler}>
+                                                                        <form onSubmit={submitHandler} autoComplete="off">
                                                                             <input type="text" name="report" value={report} placeholder='Report' onChange={e => setReport(e.target.value)} /><br /><br />
                                                                             <input type="file"  className="inputfile" onChange={fileHandler} /><br />
                                                                             <input type="submit" className='btn btn-success' value="Verified" />
@@ -190,7 +190,7 @@ const Indcompliment2 = () => {
             
                
         </div>
-        <br /><br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br />
         </center>
         </div>
        }

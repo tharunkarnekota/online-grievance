@@ -37,7 +37,7 @@ const Forgetpassword = () => {
             
             <nav className="navbar bg-dark justify-content-left">
             <h1 style={{"marginLeft":"5px"}}>
-                <Link to='/'>VJIT'ians Hub</Link>
+                <Link to='/'>Online Grievance</Link>
             </h1> 
             <div className="justify-content-left" >
                 <h5 >

@@ -94,7 +94,7 @@ const Allcomplaints = () => {
                     <div>
                         <br /><br />
                         <center>
-                        <h2 style={{color:"green"}}><b>Sorry , You are not allowed to view this information</b></h2>
+                        <h2 style={{color:"red"}}><b>Sorry , You are not allowed to view this information</b></h2>
                         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />       
 
                         </center>

@@ -1,12 +1,9 @@
 .con2{
-    background-image: url("./og1.jpg");
-    width: 100vh;
-    height: 100vh;
-    background-repeat: repeat;
+    background: url("./og1.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
-    z-index: -2;
-    height: auto;
-    width: auto;  
+    background-position: center;
+    background-attachment: fixed;  
 }
 
 .nine:hover{
@@ -15,4 +12,9 @@
     overflow: hidden;
     background: "rgba(255,255,255,0.9)"
     
+}
+
+
+a:hover{
+    color:orange
 }

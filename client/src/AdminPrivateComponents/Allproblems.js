@@ -74,7 +74,7 @@ const Allproblems = () => {
                     <div>
                         <br /><br />
                         <center>
-                        <h2 style={{color:"yellowgreen"}}>Sorry , You are not allowed to view this informtion</h2>
+                        <h2 style={{color:"red"}}>Sorry , You are not allowed to view this informtion</h2>
                         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />   
 
                         </center>

@@ -17,7 +17,7 @@ const crypto = require('crypto')
 const app = express();
 mongoose.connect('mongodb+srv://tharunkarnekota:tharunkarnekota@cluster0.dfhpb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority').then(
     ()=> console.log('Db connected..')
-)
+) 
 
 app.use(express.json());
 app.use(cors({origin:"*"}));
@@ -568,7 +568,7 @@ app.post('/resetpassword/:token',async(req,res,next)=>{
     }
 
     tuser.password = req.body.password;
-    tuser.confirmpassword = req.body.password;
+    tuser.confirmpassword = req.body.password; 
     tuser.resetPasswordToken= undefined;
     tuser.resetPasswordExpire= undefined;
 

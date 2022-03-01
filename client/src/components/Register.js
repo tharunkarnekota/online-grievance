@@ -329,7 +329,7 @@ const Register = () => {
             <section className="container">
                 <h1 className="large " style={{"color":"orange","marginTop":"50px"}}>Sign Up</h1>
                 <p className="lead"><b> Create your Account</b></p>
-                <form onSubmit={submitHandler}>
+                <form onSubmit={submitHandler} autoComplete="off">
                     <input className="form-control-lg m-1 border" style={{width:"50%","float":"left" }} type="text"             placeholder="Name*"            onChange={changeHandler} value={fullname} name="fullname" /><br /><br />
                     <input className="form-control-lg m-1 border" style={{width:"50%","float":"left" }} type="text"             placeholder="collegeId*"       onChange={changeHandler2} value={collegeId} name="collegeId" /><br /><br />
                     <div style={{"textAlign":"left","padding":"1px",width:"50%"}}><br/>
